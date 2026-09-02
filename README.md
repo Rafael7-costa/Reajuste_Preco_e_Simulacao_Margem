@@ -59,3 +59,15 @@ Testes de sensibilidade em diferentes percentuais de reajuste (elasticidade 0,4)
 - Validar a elasticidade real de demanda via teste controlado (A/B de preço) antes de aplicar reajustes acima de 5%, dado que o modelo se torna desfavorável em cenários de maior sensibilidade a preço.
 - Substituir o modelo linear de elasticidade por um modelo multiplicativo/log-log, mais preciso para variações maiores de preço.
 - Investigar a causa raiz da margem apertada nas subcategorias críticas além do desconto (custo de fornecedor, mix de produto dentro da subcategoria) antes de decidir entre reajuste de preço ou renegociação de custo.
+
+## Dashboard Power BI
+
+O dashboard interativo traduz a análise validada no Google Sheets em uma ferramenta de simulação em tempo real, com os seguintes componentes:
+
+- **Cartões de indicadores:** Receita Total, Margem %, Desconto Médio e Receita Simulada, atualizados dinamicamente conforme o cenário de reajuste selecionado.
+- **Parâmetro What-if (`% Reajuste de Preço`):** slider de -10% a +20% que recalcula a receita simulada em tempo real, aplicando o reajuste apenas nas 6 subcategorias críticas via medida DAX com `CALCULATE` e filtro condicional — as demais subcategorias permanecem no preço original.
+- **Gráfico de dispersão (Desconto Médio x Margem %):** visão do portfólio completo, com o tamanho da bolha representando a receita de cada subcategoria — evidencia visualmente o quadrante crítico (desconto alto, margem baixa).
+- **Gráfico de barras (Ganho/Perda por Subcategoria):** mostra a receita adicional estimada em cada uma das 6 subcategorias críticas, reagindo ao slider de reajuste.
+- **Tabela detalhada (DRE por Categoria/Subcategoria):** Receita, Custo, Lucro, Desconto Médio e Margem % por subcategoria, espelhando o DRE construído no Sheets.
+
+🔗 [Acessar dashboard interativo no Power BI]([cole-aqui-o-link-de-publicação](https://app.powerbi.com/view?r=eyJrIjoiM2M1YTllNjctODk4My00ODY3LTg4MTMtMjhhMzNlM2Y2NWJkIiwidCI6ImE0NTMyMzQyLWRjNjktNDhjMC1iODJhLTRhMWQ1ZDg2NGU2YiJ9))
