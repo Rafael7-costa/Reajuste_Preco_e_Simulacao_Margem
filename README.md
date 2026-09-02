@@ -70,4 +70,4 @@ O dashboard interativo traduz a análise validada no Google Sheets em uma ferram
 - **Gráfico de barras (Ganho/Perda por Subcategoria):** mostra a receita adicional estimada em cada uma das 6 subcategorias críticas, reagindo ao slider de reajuste.
 - **Tabela detalhada (DRE por Categoria/Subcategoria):** Receita, Custo, Lucro, Desconto Médio e Margem % por subcategoria, espelhando o DRE construído no Sheets.
 
-🔗 [Acessar dashboard interativo no Power BI]([cole-aqui-o-link-de-publicação](https://app.powerbi.com/view?r=eyJrIjoiM2M1YTllNjctODk4My00ODY3LTg4MTMtMjhhMzNlM2Y2NWJkIiwidCI6ImE0NTMyMzQyLWRjNjktNDhjMC1iODJhLTRhMWQ1ZDg2NGU2YiJ9))
+🔗 [Acessar dashboard interativo no Power BI]([(https://app.powerbi.com/view?r=eyJrIjoiM2M1YTllNjctODk4My00ODY3LTg4MTMtMjhhMzNlM2Y2NWJkIiwidCI6ImE0NTMyMzQyLWRjNjktNDhjMC1iODJhLTRhMWQ1ZDg2NGU2YiJ9)])
