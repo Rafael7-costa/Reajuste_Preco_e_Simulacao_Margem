@@ -54,12 +54,6 @@ Testes de sensibilidade em diferentes percentuais de reajuste (elasticidade 0,4)
 | 8% | R$ 52.521,98 |
 | 10% | R$ 64.727,39 |
 
-## Próximos Passos
-
-- Validar a elasticidade real de demanda via teste controlado (A/B de preço) antes de aplicar reajustes acima de 5%, dado que o modelo se torna desfavorável em cenários de maior sensibilidade a preço.
-- Substituir o modelo linear de elasticidade por um modelo multiplicativo/log-log, mais preciso para variações maiores de preço.
-- Investigar a causa raiz da margem apertada nas subcategorias críticas além do desconto (custo de fornecedor, mix de produto dentro da subcategoria) antes de decidir entre reajuste de preço ou renegociação de custo.
-
 ## Dashboard Power BI
 
 O dashboard interativo traduz a análise validada no Google Sheets em uma ferramenta de simulação em tempo real, com os seguintes componentes:
@@ -73,3 +67,9 @@ O dashboard interativo traduz a análise validada no Google Sheets em uma ferram
 ![Análise 1](img/1.png)
 
 [🔗 Acessar dashboard interativo no Power BI](https://app.powerbi.com/view?r=eyJrIjoiM2M1YTllNjctODk4My00ODY3LTg4MTMtMjhhMzNlM2Y2NWJkIiwidCI6ImE0NTMyMzQyLWRjNjktNDhjMC1iODJhLTRhMWQ1ZDg2NGU2YiJ9)
+
+## Próximos Passos
+
+- Validar a elasticidade real de demanda via teste controlado (A/B de preço) antes de aplicar reajustes acima de 5%, dado que o modelo se torna desfavorável em cenários de maior sensibilidade a preço.
+- Substituir o modelo linear de elasticidade por um modelo multiplicativo/log-log, mais preciso para variações maiores de preço.
+- Investigar a causa raiz da margem apertada nas subcategorias críticas além do desconto (custo de fornecedor, mix de produto dentro da subcategoria) antes de decidir entre reajuste de preço ou renegociação de custo.
